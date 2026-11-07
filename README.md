@@ -17,3 +17,11 @@ python3 -m py_compile scripts/probe.py
 ```
 
 The local PostScope production site and its simulation stay independent of this repository.
+
+## Published diagnostic
+
+- [GitHub Pages report](https://chris.uran.vip/postscope-xtracker-probe/)
+- [Machine-readable result](https://chris.uran.vip/postscope-xtracker-probe/report.json)
+- [First hosted run](https://github.com/cjiewong/postscope-xtracker-probe/actions/runs/42360319499)
+
+The first hosted run on 2026-11-07 completed and published successfully. Gamma returned HTTP 200, but both XTracker endpoints returned HTTP 403 with `x-vercel-mitigated: deny`. The upstream access problem remains unresolved.
